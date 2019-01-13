@@ -10,24 +10,24 @@ Understocking items is potentially a more severe issue. Understocking milk in a 
 
 # Project outline
 ## Data 
-week	Week No \n
-center_id	Unique ID for fulfillment center
-meal_id	Unique ID for Meal
-checkout_price	Final price including discount, taxes & delivery charges
-base_price	Base price of the meal
-emailer_for_promotion	Emailer sent for promotion of meal
-homepage_featured	Meal featured at homepage
-num_orders	(Target) Orders Count
+week	Week No <br />
+center_id	Unique ID for fulfillment center <br />
+meal_id	Unique ID for Meal<br />
+checkout_price	Final price including discount, taxes & delivery charges<br />
+base_price	Base price of the meal<br />
+emailer_for_promotion	Emailer sent for promotion of meal<br />
+homepage_featured	Meal featured at homepage<br />
+num_orders	(Target) Orders Count<br />
 
 ## Evaluation Metric
 RMSE- Lower values are better, and the metric measures the ratio of predicted-to-actual values. 
 ## Validation Framework
-use previous data to predict the upcoming events. i.e.,
-Train a model using only data known as of 2016-12-31. Predict the sales for items in the range [2017-01-01 through 2017–01-14]. Measure the performance, P1
-Train a model using only data known as of 2017-01-14. Predict the sales for items in the range [2017-01-15 through 2017–01-29]. Measure the performance, P2
-Train a model using only data known as of 2017-01-29. Predict the sales for items in the range [2017-01-30 through 2017–02-13]. Measure the performance, P3
+use previous data to predict the upcoming events. i.e.,<br />
+Train a model using only data known as of 2016-12-31. Predict the sales for items in the range [2017-01-01 through 2017–01-14]. Measure the performance, P1<br />
+Train a model using only data known as of 2017-01-14. Predict the sales for items in the range [2017-01-15 through 2017–01-29]. Measure the performance, P2<br />
+Train a model using only data known as of 2017-01-29. Predict the sales for items in the range [2017-01-30 through 2017–02-13]. Measure the performance, P3<br />
 Average the performance scores, PAverage=(P1,P2,P3)/3.
 
 # Leaderboard
-private 48/764
+private 48/764 <br />
 public 43/764
