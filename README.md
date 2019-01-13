@@ -10,7 +10,7 @@ Understocking items is potentially a more severe issue. Understocking milk in a 
 
 # Project outline
 ## Data 
-week	Week No
+week	Week No \n
 center_id	Unique ID for fulfillment center
 meal_id	Unique ID for Meal
 checkout_price	Final price including discount, taxes & delivery charges
