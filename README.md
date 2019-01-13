@@ -10,6 +10,14 @@ Understocking items is potentially a more severe issue. Understocking milk in a 
 
 # Project outline
 ## Data 
+week	Week No
+center_id	Unique ID for fulfillment center
+meal_id	Unique ID for Meal
+checkout_price	Final price including discount, taxes & delivery charges
+base_price	Base price of the meal
+emailer_for_promotion	Emailer sent for promotion of meal
+homepage_featured	Meal featured at homepage
+num_orders	(Target) Orders Count
 
 ## Evaluation Metric
 RMSE- Lower values are better, and the metric measures the ratio of predicted-to-actual values. 
